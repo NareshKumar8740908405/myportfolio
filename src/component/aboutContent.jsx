@@ -3,7 +3,7 @@ import "./aboutContent.css";
 import { Link } from "react-router-dom";
 import React2 from "../assets/react2.webp";
 
-const aboutContent = () => {
+const AboutContent = () => {
     return (
         <div className='about'>
 
@@ -25,4 +25,4 @@ const aboutContent = () => {
     )
 }
 
-export default aboutContent
+export default AboutContent

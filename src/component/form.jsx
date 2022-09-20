@@ -1,7 +1,7 @@
 import React from 'react'
 import "./form.css"
 
-const form = () => {
+const Form = () => {
   return (
     <div className="form">
         <form action="mailto:nareshkumar12092003@gmail.com" method="post" >
@@ -19,4 +19,4 @@ const form = () => {
   )
 }
 
-export default form
+export default Form

@@ -1,14 +1,14 @@
 import React from 'react'
-import Heroimg from '../component/heroImg';
+import HeroImg from '../component/HeroImg';
 import Work from "../component/Work";
 
-const home = () => {
+const Home = () => {
   return (
     <div>
-        <Heroimg />
+        <HeroImg />
         <Work />
     </div>
   )
 }
 
-export default home
+export default Home

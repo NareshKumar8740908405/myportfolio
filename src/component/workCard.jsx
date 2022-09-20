@@ -1,7 +1,7 @@
 import React from 'react'
 import "./workCard.css";
 
-const workCard = (props) => {
+const WorkCard = (props) => {
   return (
     <div className="project-card">
             <img src={props.imgsrc} alt="img" />
@@ -17,4 +17,4 @@ const workCard = (props) => {
   )
 }
 
-export default workCard
+export default WorkCard

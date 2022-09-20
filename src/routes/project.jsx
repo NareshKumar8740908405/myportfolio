@@ -1,14 +1,14 @@
 import React from 'react'
-import Heroimg2 from "../component/heroImg2";
+import HeroImg2 from "../component/HeroImg2";
 import Work from "../component/Work"
 
-const project = () => {
+const Project = () => {
   return (
     <div>
-      <Heroimg2 heading="PROJECTS." text="Some of my most recent works"/>
+      <HeroImg2 heading="PROJECTS." text="Some of my most recent works"/>
       <Work />
     </div>
   )
 }
 
-export default project
+export default Project

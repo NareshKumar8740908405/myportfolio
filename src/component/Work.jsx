@@ -1,6 +1,6 @@
 import React from 'react'
 import "./workCard.css";
-import WorkCard from "./workCard";
+import WorkCard from "./WorkCard";
 import WorkCardData from "../component/workCardData";
 
 const Work = () => {
@@ -18,6 +18,7 @@ const Work = () => {
                view={val.view}
                source={val.source} 
               />
+              
             )
           })}
         </div>

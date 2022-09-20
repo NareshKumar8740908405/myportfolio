@@ -3,7 +3,7 @@ import "./heroImg.css";
 import Introimg from "../assets/intro-bg.jpg";
 import { Link } from "react-router-dom";
 
-const Heroimg = () => {
+const HeroImg = () => {
   return (
     <div className='hero'>
         <div className='mask'>
@@ -23,4 +23,4 @@ const Heroimg = () => {
   )
 }
 
-export default Heroimg
+export default HeroImg

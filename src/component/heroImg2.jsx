@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./heroImg2.css"
 
-class Heroimg2 extends Component {
+class HeroImg2 extends Component {
     render() {
         return (
             <div className='hero-img'>
@@ -14,4 +14,4 @@ class Heroimg2 extends Component {
     }
 }
 
-export default Heroimg2
+export default HeroImg2

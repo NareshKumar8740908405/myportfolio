@@ -1,15 +1,15 @@
 import React from 'react'
-import Heroimg2 from "../component/heroImg2";
-import Form from "../component/form"
+import HeroImg2 from "../component/HeroImg2";
+import Form from "../component/Form"
 
 
-const contact = () => {
+const Contact = () => {
   return (
     <div>
-      <Heroimg2 heading="CONTACT." text="Let's have a chat"/>
+      <HeroImg2 heading="CONTACT." text="Let's have a chat"/>
       <Form />
     </div>
   )
 }
 
-export default contact
+export default Contact

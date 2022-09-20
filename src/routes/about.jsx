@@ -1,14 +1,14 @@
 import React from 'react'
-import Heroimg2 from "../component/heroImg2";
-import AboutContent from "../component/aboutContent";
+import HeroImg2 from "../component/HeroImg2";
+import AboutContent from "../component/AboutContent";
 
-const about = () => {
+const About = () => {
   return (
     <div>
-      <Heroimg2 heading="ABOUT." text="I'm a freindly Front-end Devloper"/>
+      <HeroImg2 heading="ABOUT." text="I'm a freindly Front-end Devloper"/>
       <AboutContent />
     </div>
   )
 }
 
-export default about
+export default About
